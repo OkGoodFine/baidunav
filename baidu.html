@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" type="text/css" href="baidu.css"> -->
+    <base target="_blank">
+    <!-- <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_2578406_zof7pql239.css"> -->
+    <style>
+        .navacat{
+            width: 500px;
+        }
+        .nav {
+            float: left;
+            width: 500px;
+            margin-top: 20px;
+            /* border:2px solid gray; */
+        }
+        a:link {
+            font-size: 14px;
+            color:rgb(0, 0, 0);
+            text-decoration: none;
+            background-color: rgb(255, 254, 254);
+            padding: 0px 11px;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: blue;
+        }
+        .dropdown{
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown-content{
+            border: 1px solid rgb(237, 237, 237);
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px rgb(237, 237, 237) inset;
+            width: 320px;
+            display: none;
+            position:absolute;
+            right: 0%;
+        }
+        .dropdown-content div{
+            display: block;
+            width: 70px;
+            height: 67px;
+            /* color: rgb(0, 0, 0); */
+            float: left;
+            margin: 3px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .dropdown-content div p{
+            height: 18px;
+            /* border: 1px solid rgb(235, 234, 234); */
+            margin-top: 0px;
+            margin-left: 7px;
+        }
+        .dropdown-content div:hover{
+            color: rgb(36, 25, 180);
+        }
+        .dropdown-content > div img{
+            margin-bottom: 0px;
+            width: 42px;
+            height: 42px;
+            border: 1px solid rgb(237, 237, 237);
+            border-radius: 20px;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+        .bot {
+            clear: both;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 100;
+            padding-top: 10px;
+        }
+        .bot > a{
+            color: rgb(150, 154, 167);
+        }
+        .bot > a:hover{
+            color: blue;
+        }
+        .bot img{
+            width: 10px; 
+            height: 10px; 
+            padding-top: 10px;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a style="margin-left: 5px;" href="">新闻</a>
+        <a href="https://www.hao123.com/" target="_blank">hao123</a>
+        <a href="https://map.baidu.com/@13800149,5972174,13z">地图</a>
+        <a href="https://map.baidu.com/@13800149,5972174,13z">直播</a>
+        <a href="https://haokan.baidu.com/?sfrom=baidu-top">视频</a>
+        <a href="https://tieba.baidu.com/index.html">贴吧</a>
+        <a href="https://xueshu.baidu.com/">学术</a>
+        <div class="dropdown">
+            <span><a class="dropbut" href="">更多</a></span>
+            <!--下拉内容开始-->
+            <div class="dropdown-content">
+                <div><a href=""><img src="images/网盘.png" alt="网盘"><p>网盘</p></a>
+                    
+                </div>
+                <div><a href=""><img src="images\知道.png" alt="知道"><p>知道</p></a>
+                   
+                </div>
+
+                <div><a href=""><img src="images/百科.png" alt="百科"><p>百科</p>  <a href=""></a>
+                </div>
+
+                <div><a href=""><img src="images/图片.png" alt="图片"><p >图片</p><a href=""></a>
+                </div>
+                <div><a href=""><img src="images/营销推广.png" alt="营销推广"><p>营销推广</p><a href=""></a>
+                </div>
+                <div><a href=""><img src="images/文库.png" alt="文库"><p>文库</p><a href=""></a>
+                </div>
+               <div> <a href=""><img src="images/经验.png" alt="经验"><p>经验</p><a href=""></a>
+               </div>
+               <div><a href=""><img src="images/音乐.png" alt="音乐"><p>音乐</p></a>
+               </div>
+               <p class="bot"><a href="https://www.baidu.com/more/">查看全部百度产品<img src="images/向右箭头.png" alt="一个向右的箭头"></a></p>
+            </div>
+             <!--下拉内容结束-->
+        </div>
+    </div>
+    <!-- 导航栏右边
+    <div class="navright">
+        <p>城市<img src="" alt="天气图标"><span>温度值</span><span>天气状况</span></p>
+    </div> -->
+</body>
+</html>
